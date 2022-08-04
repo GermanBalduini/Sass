@@ -1,0 +1,18 @@
+/* Variables */
+@import "./components/variables.scss";
+
+/* Normalizador */ 
+@import "./components/normalize";
+
+/* Mixins */ 
+@import "./components/mixins";
+
+/* Header */ 
+@import "./base/header";
+
+/* Body */ 
+@import "./base/body";
+
+/* Footer */ 
+@import "./base/footer";
+

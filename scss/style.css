@@ -1,0 +1,79 @@
+/* Variables */
+/* Normalizador */
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: font-family "Dancing Script", cursive;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  font-family: font-family "Kanit", sans-serif;
+  color: #FFF7E5;
+}
+
+.body_contacto {
+  font-family: font-family "Kanit", sans-serif;
+  background: #fffc00; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-contacto {
+  text-align: center;
+  font-weight: 700;
+}
+
+form {
+  background-color: #FC4545;
+  padding: 40px 0;
+  border-radius: 10px;
+}
+
+input {
+  background: none;
+  color: wheat;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+input:focus {
+  outline: none;
+  color: black;
+}
+
+label {
+  color: black;
+}
+
+/* Mixins */
+/* Header */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 2px solid #7D2FFD;
+  margin-top: 20px;
+}
+
+/* Body */
+/* Footer *//*# sourceMappingURL=style.css.map */
