@@ -1,6 +1,18 @@
+// VARIABLES
 @import "./components/variables";
-.p{
-    color: $alternative;
-    font-family: $font-secundaria;
-}
 
+// NORMALIZADOR
+@import "./components/normalize";
+
+// MIXINS
+@import "./components/mixins";
+
+// HEADER
+@import "./base/header";
+
+// BODY
+@import "./base/body";
+
+// FOOTER
+@import "./base/footer";
+   
