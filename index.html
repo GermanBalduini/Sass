@@ -16,88 +16,159 @@
 </head>
 
 <body>
-  <div class="p-1 mb-1 bg-warning text-dark">
-    <img src="./src/multimedia/Imagenes/logo.jpg" class="rounded mx-auto d-block rounded-circle" width="150px"
-      height="150px" alt="logotoya">
-  </div>
-  <header class="bg-white">
-    <div class="bg-dark text-white">
-      <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav navbar-nav navbar-left mx-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./src/Paginas/comidas.html">Nuestros productos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./src/Paginas/contacto.html">Contactanos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./src/Paginas/preguntasfrecuentes.html">Preguntas Frecuentes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./src/Paginas/quienesSomos.html">Quienes somos?</a>
-            </li>
-          </ul>
-        </div>
+  <header class="header_index">
+
+    <!-- HEADER INDEX -->
+
+    <div class="caja_nav">
+
+      <!-- NAV -->
+
+      <nav>
+        <a href="./index.html"><img class="img_logo rounded-circle" src="./src/multimedia/Imagenes/logo.jpg"
+            alt="logotoya"></a>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./src/Paginas/comidas.html">Nuestros productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./src/Paginas/contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./src/Paginas/quienesSomos.html">Quienes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./src/Paginas/preguntasfrecuentes.html">Preguntas frecuentes</a>
+          </li>
+        </ul>
       </nav>
-  </header>
-  <main>
-    <div class="p-1 mb-1 bg-dark text-white">
-      <p class="p_index"> Los orígenes de la cocina árabe se remontan a los pueblos nómadas de la antigua Arabia, dedicados al pastoreo,
-        convirtiéndose en un pueblo consumidor de lácteos y sus derivados como quesos, yogurt, etc. Por otro lado la
-        carne
-        que se consumía y que aún se acostumbra es la de carnero. La de aves y rumiantes es menos frecuente</p>
-      <p>Debido a sus relaciones comerciales entre Asía y Europa, los árabes fueron incorporando nuevos ingredientes en
-        su gastronomía, volviéndola más diversa. De ahí que compartan ingredientes o técnicas con la comida hindú y
-        mediterránea. Sin embargo, la cocina árabe tiene características que la hacen destacar, mediante sus mezclas
-        equilibrada de especias y vegetales</p>
     </div>
-    <div class="p-1 mb-1 bg-secondary text-white">
-      <div class="d-flex position-relative">
-        <span class="border border-1">
-          <img src="./src/multimedia/Imagenes/cafe.jpg" class="flex-shrink-0" alt="cafe">
-        </span>
-        <div>
-          <h5 class="mt-0">Sabias que el cafe proviene de Asia?</h5>
-          <p>Durante unos 200 años tuvieron la exclusiva del cultivo y comercio de café ya que tenían especial cuidado
-            en
-            no propagar granos fértiles de café. Les quitaban las capas exteriores y los tostaban para el comercio. Así
-            pues, era misión imposible plantar un cafeto (la planta del café) en territorios que no estuvieran bajo la
-            influencia árabe.</p>
-          <p>Holanda fue la responsable que empezara el cultivo de café en Asia y partes de América que actualmente son
-            los mayores productores de café del mundo.</p>
-          <button>
-            <a href="./src/Paginas/quienesSomos.html">VENI</a>
-          </button>
+  </header>
+
+  <!-- MAIN -->
+
+  <main class="main_index">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./src/multimedia/Imagenes/decoraciondecocina.jpg" class="d-block w-100" alt="decoraciondecocina1">
+        </div>
+        <div class="carousel-item">
+          <img src="./src/multimedia/Imagenes/decoracion.jpg" class="d-block w-100" alt="decoraciondecocina2">
         </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
     </div>
   </main>
   <section>
-    <div class="p-3 mb-2 bg-secondary text-white">
-    <h4 class="text-end">Nos encontramos en calle buenos aires, numero 166, puerta de madera, tocar timbre</h3>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.456854627402!2d-66.85819578437459!3d-29.415441109266407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9427dbcab57f940d%3A0x9042202b8f8ac5b2!2sBuenos%20Aires%20166%2C%20F5300%20La%20Rioja!5e0!3m2!1ses-419!2sar!4v1659695877732!5m2!1ses-419!2sar"
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <div class="d-flex justify-content-end">
-      <i class="fa-solid fa-car"></i>
-    </div>
+
+    <!-- SECTION -->
+
+    <div class="cajaindex_1">
+      <h1>Historia de la gastronomia arabe:</h1>
+      <h2>Desayuno:</h2>
+      <p>Las cafeterías suelen servir cruasanes para el desayuno. El desayuno suele ser una comida ligera, basada en
+        pan y productos lácteos, con té y, a veces, mermelada. Los productos para el desayuno más comunes son el
+        labneh, que es queso de yogur, y kishta, que es crema de leche de vaca.</p>
+      <img src="./src/multimedia/Imagenes/cruasan_croissant.jpg" alt="Cruasan" class="img-fluid">
+      <img src="./src/multimedia/Imagenes/labhne.jpg" alt="labhne" class="img-fluid">
+      <h2>Almuerzo:</h2>
+      <p>
+        El almuerzo se considera la comida principal del día, es motivo de reunión para la familia, y suele darse
+        entre las 13:30 y las 14:30 h. Rara vez las comidas tienen diferentes tiempos, ya que los platos se
+        disponen en la mesa en forma de mezze o muqabbilat (similar a las tapas españolas) donde se sirven
+        ensaladas y otras guarniciones acompañando a la comida principal.
+
+        El plato fuerte suele constar de una ración de carne o pescado, una ración de arroz, lentejas, pan y una
+        ración de verduras cocidas. Un tipo de preparación frecuente es la maraqa, que consiste en un guiso de
+        verduras y carne cocinadas en salsa, generalmente a base de tomate y especias, y que se sirve con arroz
+        árabe y pan jubz.
+        Algunas bebidas tradicionales árabes son el laban áiran o shanina (yogur líquido), el qamar ad-din (bebida
+        de albaricoque), el naqe'e az-zabib (bebida de pasas) o el tamr hindi (bebida de tamarindo), así como una
+        amplia variedad de jugo de frutas. Debido a la globalización alimentaria del siglo XX, los refrescos
+        carbonatados se han vuelto muy populares. Las bebidas no se sirven necesariamente con la comida.
+      </p>
+      <img src="./src/multimedia/Imagenes/arrozarabe.jpg" alt="Arrozarabe" class="img-fluid">
+      <img src="./src/multimedia/Imagenes/panarabe.jpg" alt="panarabe" class="img-fluid">
+      <h2>Cena:</h2>
+      <p>La cena es tradicionalmente la comida más liviana, aunque en los tiempos modernos, la cena ha tomado
+        importancia en lo que respecta a entretener a los invitados debido a las horas de la jornada laboral.</p>
+      <img src="./src/multimedia/Imagenes/platoarabe.jpg" alt="platoarabe" class="img-fluid">
     </div>
   </section>
-  <footer>
-    <div class="container-fluid p-3 mb-2 bg-warning text-dark text-center">
-      <p class="small">&copy; Todos los derechos reservados :: La Toya Comidas :: Argentina 2022</p>
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-whatsapp"></i>
-      <i class="fa-brands fa-instagram"></i>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-      </script>
+
+  <!-- ARTICLE -->
+
+  <article class="article_index">
+    <img src="./src/multimedia/Imagenes/amazando.jpg" class="img-fluid" alt="amazando">
+    <button class="cta">
+      <span class="hover-underline-animation"><a class="enlace_index" href="./src/Paginas/comidas.html"> Veni a probar
+          nuestras comidas</a></span>
+      <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+        <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+          transform="translate(30)"></path>
+      </svg>
+    </button>
+  </article>
+
+  <!-- FOOTER -->
+
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <img src="./src/multimedia/Imagenes/logo.jpg" alt="logotoya" class="rounded-circle">
+
+      <p class="footer-links">
+        <a href="./src/Paginas/comidas.html">Nuestros productos</a>
+
+        <a href="./src/Paginas/contacto.html">Contacto</a>
+
+        <a href="./src/Paginas/quienesSomos.html">Quienes somos?</a>
+
+        <a href="./src/Paginas/preguntasfrecuentes.html">Preguntas frecuentes</a>
+
+      </p>
+
+      <p class="footer-company-name">La Toya Comidas © 2022</p>
+
+      <div class="footer-icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+
+
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p>Ponte en contacto con nosotros</p>
+
+      <form action="#" method="post">
+
+        <input type="text" name="email" placeholder="Email">
+        <textarea name="message" placeholder="Mensaje"></textarea>
+        <button>Enviar</button>
+
+      </form>
+      <div class="mediosdepago">
+        <img src="./src/multimedia/Imagenes/mediosdepago.jpg.svg" alt="mediosdepago" class="img-fluid">
+        <h5>Aceptamos pagos mediante transferencia bancaria o en efectivo</h5>
+      </div>
+    </div>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    </div>
   </footer>
-  </div>
 </body>

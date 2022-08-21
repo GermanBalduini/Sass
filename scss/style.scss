@@ -1,18 +1,20 @@
-// VARIABLES
+/* Variables */
 @import "./components/variables";
-
-// NORMALIZADOR
+/* Normalizador */
 @import "./components/normalize";
-
-// MIXINS
+/* Mixins */
 @import "./components/mixins";
-
-// HEADER
+/* Header */
 @import "./base/header";
-
-// BODY
-@import "./base/body";
-
-// FOOTER
+/* Main */
+@import "./base/main";
+/* Section */
+@import "./base/section";
+/* Footer */
 @import "./base/footer";
-   
+/* Medias querys */
+@import "./components/mediaQuery";
+/* Imagenes */
+@import "./components/gallery";
+/* ARTICLE */
+@import "./base/article";

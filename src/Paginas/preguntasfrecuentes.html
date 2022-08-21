@@ -1,48 +1,130 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Preguntas, preguntas frecuentes, como trabajamos">
-    <meta name="description" content="Aqui encontraras la ubicacion de nuestro local">
-    <title>PREGUNTAS FRECUENTES</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/6a989e0a5b.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../../css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Preguntas, preguntas frecuentes, como trabajamos">
+  <meta name="description" content="Aqui encontraras la ubicacion de nuestro local">
+  <title>PREGUNTAS FRECUENTES</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/6a989e0a5b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../css/style.css">
 </head>
 
 <body class="body_pf">
-    <div class="p-3 mb-2 bg-dark text-white">
-    <header>
-        <nav>
-            <li><a href="../../index.html">Inicio</a></li>
-        </nav>
-        <h1 class="h1_pf text-center">PREGUNTAS FRECUENTES</h1>
-    </header>
-    <main>
-        <h2 class="text-center">¿Tienen un local para ir a comer ahi?</h2>
-        <p class="text-center">No disponemos actualmente de un local, tomamos directamente los pedidos para que pasen a retirar o llevamos a
-            domicilio!</p>
-        <h2 class="text-center">¿Abren dias feriados?</h2>
-        <p class="text-center">Si hacen los pedidos con tiempo, entregamos comidas los dias feriados, recuerden que deben si o si realizar
-            el pedido con un dia de anticipacion en caso de que sea feriado</p>
-        <h2 class="text-center">Hacen comidas para vegetarianos?</h2>
-        <p class="text-center">Lamentablemente solo cocinamos con alimentos tradicionales, pero posiblemente en un futuro hagamos comida para vegetarianos tambien!</p>
+
+  <!-- NAV -->
+
+  <nav>
+    <div class="caja_nav">
+      <a href="../../index.html"><img class="img_logo rounded-circle" src="../multimedia/Imagenes/logo.jpg"
+          alt="logotoya"></a>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../../src/Paginas/comidas.html">Nuestros productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../src/Paginas/contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../src/Paginas/preguntasfrecuentes.html">Preguntas frecuentes</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </nav>
+  </header>
+
+  <!-- MAIN -->
+
+  <main class="main_pf">
+    <h1 class="h_pf">PREGUNTAS FRECUENTES</h1>
+    <div class="container">
+      <div class="accordion">
+        <div class="accordion__item">
+          <a class="accordion__item__title" href="#item1">
+            <h5> Que dias se encuentran trabajando?</h5>
+          </a>
+          <div class="accordion__item__content" id="item1">
+            Trabajamos de Martes a Sabados, no tenemos un horario fijo.
+          </div>
+        </div>
+        <div class="accordion__item">
+          <a class="accordion__item__title" href="#item2">
+            <h5>Trabajan los dias feriados?</h5>
+          </a>
+          <div class="accordion__item__content" id="item2">
+            Hacemos pedidos siempre y cuando los mismos se realicen con 24 a 48 hs de anticipacion
+          </div>
+        </div>
+        <div class="accordion__item">
+          <a class="accordion__item__title" href="#item3">
+            <h5>Aceptan pagos mediante transferencia bancaria?</h5>
+          </a>
+          <div class="accordion__item__content" id="item3">
+            Aceptamos pagos por transferencia bancaria, Mercado Pago y en efectivo.
+          </div>
+        </div>
+        <div class="accordion__item">
+          <a class="accordion__item__title" href="#item4">
+            <h5>Ya que no trabajan los domingos, puedo realizar pedidos para ese dia?</h5>
+          </a>
+          <div class="accordion__item__content" id="item4">
+            Aunque no trabajemos los Domingos, tomamos pedidos pero unicamente con 48 hs de anticipacion.
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <img src="../../src/multimedia/Imagenes/logo.jpg" alt="logotoya">
+
+      <p class="footer-links">
+        <a href="../../index.html">Inicio</a>
+
+        <a href="../../src/Paginas/comidas.html">Nuestros productos</a>
+
+        <a href="../../src/Paginas/contacto.html">Contacto</a>
+
+        <a href="../../src/Paginas/quienesSomos.html">Quienes somos?</a>
+      </p>
+
+      <p class="footer-company-name">La Toya Comidas © 2022</p>
+
+      <div class="footer-icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
 
 
-    </main>
-</div>
-<footer class="footer_index">
-    <div class="container-fluid bg-white text-center p-3">
-    <p class="small">&copy; Todos los derechos reservados :: La Toya Comidas :: Argentina 2022</p>
-    <i class="fa-brands fa-facebook"></i>
-    <i class="fa-brands fa-whatsapp"></i>
-    <i class="fa-brands fa-instagram"></i>
-</div>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p>Ponte en contacto</p>
+
+      <form action="#" method="post">
+
+        <input type="text" name="email" placeholder="Email">
+        <textarea name="message" placeholder="Message"></textarea>
+        <button>Send</button>
+
+      </form>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+    </div>
+  </footer>
 </body>

@@ -1,0 +1,132 @@
+@import "../components/variables";
+
+    /* INDEX*/ 
+
+.cajaindex_1{
+    background-color: $primary;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+    h1{
+       color: $text-color;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       padding-top: 10px;
+       padding-bottom: 10px;
+    }
+    h2{
+       color: $text-color;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       padding-top: 10px;
+       padding-bottom: 10px;
+    }
+    p{
+       color: $text-color;
+       font-size: larger;
+       padding-top: $spacing-medium;
+       padding-top: 10px;
+       padding-bottom: 10px;
+    }
+    img{
+       width: 350px;
+       height: 350px;
+       padding-top: $spacing-small;
+       padding-bottom: $spacing-small;
+       padding-top: 10px;
+       padding-bottom: 10px;
+    } 
+    }
+    
+    .main_index{
+        background-color: $negro;
+        h5{
+            color: $text-color
+        }
+        p{
+            color: ivory;
+            padding-top: 10px;
+       padding-bottom: 10px;
+        }
+        img{
+            width: min-content;
+        height: min-content	
+         }
+    }
+
+     /*********** Contacto ***********/
+ .contenedor_mapa{
+    @include flex (row, center, baseline)
+ }
+
+  
+  /********* COMIDAS ********/
+   .menu_toya{
+    padding: 20px;
+    background-color: black;
+   label{
+    color: $text-color;
+   }
+   img{
+    width: 500px;
+    height: auto;
+    
+   }
+   }
+//    QUIENES SOMOS
+
+.section_qs{
+    background-color: $text-color;
+}
+
+.container_qs{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn_qs {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+
+    a{
+        text-decoration: none;
+        color: $primary;
+    }
+   }
+   
+   .btn_qs::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   .btn_qs:hover {
+    color: #e8e8e8;
+   }
+   
+   .btn_qs:hover::before {
+    width: 100%;
+   }
