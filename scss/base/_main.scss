@@ -8,47 +8,69 @@
 	padding: 3px;
   }
    /* COMIDAS */ 
+
 .main_comidas{
-	background-color: $secondary;
+  background-color: $secondary;
+  
+  .h1_comidas{
+     text-align: center;
+     color: black;
+    }
+
+  h3{
+    padding: 3px;
+    padding-right: 3px;
+    color: solid black;
+    text-align: center;
+  }
+  img{
+    width: 90%;
+  }
 }
 
-  .h1_comidas{
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	text-decoration: solid;
-	color: black;
-	text-align: center;
-  }
+   .row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
 
-  .container-img{
-	width: 100%;
-	max-width: 1100px;
-	margin: auto;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 250px;
-	grid-gap: 20px;
-	
-	figure{
-		width: 100%;
-		height: 100%;
-	}
-	img{
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	}
-  }
+.column{
+    flex: 25%;
+    padding: 5px;
+    img{
+      margin-top: 5px;
+    }
+    h4{
+      color: $alternative;
+      text-align: center;
+    }
+}
 
-  .container-img .box-img:nth-child(1){
-	grid-column-start: span 2;
-  }
 
-  .container-img .box-img:nth-child(4){
-	grid-row-start: span 2;
-  }
+.button_comidas{
+    background: #FBCA1F;
+    font-family: inherit;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+   }
+   
+   .button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+   }
+   
+   button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+   }
+
+
    /* CONTACTO */ 
+
    .main{
     font-family: 'Raleway', sans-serif;
     background-color: $alternative;

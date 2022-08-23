@@ -1,39 +1,4 @@
 
-/*********** COMIDAS *********/
-@media screen and (max-width: 800px){
-.container-img{
-  width: 95px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-  grid-template-rows: 200px;
-}
-}
-.container-img .box-img:nth-child(1){
-  grid-column-start: span 1;
-}
-
-@media screen and (max-width: 700px){
-  .container-img{
-    width: 90%;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .container-img .box-img img{
-    height: 200px;
-
-  }
-}
-
-@media screen and (max-width: 300px){
-  .container-img{
-    width: 90%;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .container-img .box-img img{
-    height: 200px;
-
-  }
-}
-
  /********** Footer **********/
 @media (max-width: 1000px) {
   
@@ -87,32 +52,121 @@
   }
 
 
-  // FOOTER COMIDAS
+  // COMIDAS
 
-  @media (max-width:991px) {
+  @media (max-width: 1200px){
+    .row{
+      padding-left: 10px;
+      padding-right: 3px;
+    }
+    
+    .column{
+        flex: 50%;
+    }
+
+}
+
+  @media (max-width: 800px){
+    
+    .section_comidas{
+      display: flex;
+      padding: 5% 15%;
+    }
+    
+    .box{
+      padding:auto;
+      margin: auto;
+      overflow: auto;
+    }
+    
+    .box1{
+      padding:auto;
+      margin: auto;
+      overflow: auto;
+    }
+    .box2{
+      padding:auto;
+      margin: auto;
+      overflow: auto;
+    }
+    
+    .main_comidas{
+      img{
+        width: 90%;
+      }
+    }
+    
+    .row{
+    padding: 10%;
+    }
+    
+    .column{
+        flex: 80%;
+    }
+}
+
+
+@media (max-width: 600px){
+.section_comidas{
+  display: flex;
+  padding: 5% 15%;
+}
+
+.box{
+  padding:auto;
+  margin: auto;
+  overflow: auto;
+}
+
+.box1{
+  padding:auto;
+  margin: auto;
+  overflow: auto;
+}
+.box2{
+  padding:auto;
+  margin: auto;
+  overflow: auto;
+}
+
+
+
+  .main_comidas{
+  img{
+    width: 100%;
+  }
+}
+
+.row{
+  padding: 10%;
+}
+
+.column{
+    flex: 80%;
+}
+}
+  
+  // FOOTER
+  @media (max-width:1200px) {
     .footer-clean .item.social > a {
       margin-top:40px;
     }
   }
   
-  @media (max-width:767px) {
+  @media (max-width:800px) {
     .footer-clean .item.social > a {
       margin-top:10px;
     }
   }
-
-  @media (max-width:767px) {
-    .footer-clean .item {
-      text-align:center;
-      padding-bottom:20px;
-    }
-  }
   
-  @media (max-width: 768px) {
+  @media (max-width: 400px) {
     .footer-clean .item.social {
       text-align:center;
     }
   }
+
+
+
 
   // CONTACTO
 
@@ -136,3 +190,5 @@
       margin-top:20px;
     }
   }
+
+  
